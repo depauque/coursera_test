@@ -1,6 +1,6 @@
-/* Set the background color to a dark shade of blue */
+/* Set the background color to a dark shade of gray */
 body {
-  background-color: #1a1c24;
+  background-color: #2a2d34;
 }
 
 /* Set the font color to a light shade of gray */
@@ -10,21 +10,21 @@ body, h1, h2, h3, p {
 
 /* Style the header with a gradient background and a border */
 header {
-  background: linear-gradient(to right, #f6d365, #fda085);
-  border-bottom: 2px solid #fff;
+  background: linear-gradient(to right, #ff416c, #ff4b2b);
+  border-bottom: 1px solid #fff;
   padding: 1rem;
 }
 
 /* Style the main content with a dark background and white border */
 main {
-  background-color: #23252c;
+  background-color: #3c3f4f;
   border: 1px solid #fff;
   padding: 1rem;
 }
 
-/* Style the links with a green color and underline on hover */
+/* Style the links with a red color and underline on hover */
 a {
-  color: #00ff00;
+  color: #ff4b2b;
   text-decoration: none;
 }
 
@@ -32,9 +32,9 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Style the buttons with a blue gradient and white text */
+/* Style the buttons with a red gradient and white text */
 button {
-  background: linear-gradient(to right, #2193b0, #6dd5ed);
+  background: linear-gradient(to right, #ff416c, #ff4b2b);
   color: #fff;
   padding: 0.5rem 1rem;
   border: none;
@@ -43,5 +43,63 @@ button {
 }
 
 button:hover {
-  background: linear-gradient(to right, #6dd5ed, #2193b0);
+  background: linear-gradient(to right, #ff4b2b, #ff416c);
+}
+
+/* Style the input fields with a white background and gray border */
+input[type="text"], input[type="email"], textarea {
+  background-color: #fff;
+  border: 1px solid #d8d8d8;
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Style the form submit button with a red gradient and white text */
+input[type="submit"] {
+  background: linear-gradient(to right, #ff416c, #ff4b2b);
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background: linear-gradient(to right, #ff4b2b, #ff416c);
+}
+
+/* Style the table with a white background and gray border */
+table {
+  border-collapse: collapse;
+  border: 1px solid #d8d8d8;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+th, td {
+  padding: 0.5rem;
+  text-align: left;
+  border: 1px solid #d8d8d8;
+}
+
+th {
+  background-color: #3c3f4f;
+  color: #fff;
+}
+
+/* Style the alert messages with a red background and white text */
+.alert {
+  background-color: #ff4b2b;
+  color: #fff;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* Style the footer with a gray background and white text */
+footer {
+  background-color: #3c3f4f;
+  color: #d8d8d8;
+  padding: 1rem;
+  text-align: center;
 }
